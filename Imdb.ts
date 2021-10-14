@@ -13,6 +13,8 @@ export class Imdb
 
 }
 
+
+
 // let movie1 = new Movie("1917", 2019, "USA", "war")
 
 // movie1.producer = "Amblin PArtners";

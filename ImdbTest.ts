@@ -3,6 +3,9 @@ import {Professional} from "./professional";
 import { Movie } from "./Movie";
 import { Imdb } from './Imdb';
 
+
+var fs = require('file-system');
+
 let movie1=  new Movie("Origen", 2010, "USA", "suspense");
 
 movie1.printMovie()
@@ -26,6 +29,9 @@ movie1.writer = writer;
 
 movie1.printMovie()
 
+
+
+
 let movie3 = new Movie("1917", 2019, "USA", "war")
 
 movie3.producer = "Amblin PArtners";
@@ -45,3 +51,14 @@ movie4.language = "English";
 movie3.printMovie()
 
 let biblio  = new Imdb([movie1, movie3, movie4])
+
+
+
+// console.log(JSON.stringify(biblio));
+
+
+
+
+
+fs.writeFileSync('ImdbBBDD.json', JSON.stringify(biblio));
+

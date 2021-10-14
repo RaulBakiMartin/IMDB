@@ -1,0 +1,147 @@
+{
+    "peliculas": [
+        {
+            "title": "Origen",
+            "releaseYear": 2010,
+            "nationality": "USA",
+            "genre": "suspense",
+            "actors": [
+                {
+                    "name": "Mel Gibson",
+                    "age": 65,
+                    "genre": "Masculine",
+                    "weight": 78,
+                    "height": 1.77,
+                    "hairColor": "Green",
+                    "eyeColor": "Caucasian",
+                    "race": "brown",
+                    "isRetired": false,
+                    "nationality": "U.S.A.",
+                    "oscarsNumber": 2,
+                    "profession": "Actor"
+                },
+                {
+                    "name": "Amy Adams",
+                    "age": 49,
+                    "genre": "F",
+                    "weight": 65,
+                    "height": 177,
+                    "hairColor": "redhead",
+                    "eyeColor": "blue",
+                    "race": "Caucasian",
+                    "isRetired": false,
+                    "nationality": "USA",
+                    "oscarsNumber": 2,
+                    "profession": "actor"
+                }
+            ],
+            "director": {
+                "name": "Sam  MEndes",
+                "age": 64,
+                "genre": "M",
+                "weight": 87,
+                "height": 181,
+                "hairColor": "Brown",
+                "eyeColor": "brown",
+                "race": "Caucasian",
+                "isRetired": false,
+                "nationality": "English",
+                "oscarsNumber": 1,
+                "profession": "director"
+            },
+            "writer": {
+                "name": "George RR Martin",
+                "age": 76,
+                "genre": "M",
+                "weight": 123,
+                "height": 190,
+                "hairColor": "Grey",
+                "eyeColor": "black",
+                "race": "Caucasian",
+                "isRetired": false,
+                "nationality": "English",
+                "oscarsNumber": 0,
+                "profession": "writer"
+            }
+        },
+        {
+            "title": "1917",
+            "releaseYear": 2019,
+            "nationality": "USA",
+            "genre": "war",
+            "actors": [],
+            "director": {
+                "name": "",
+                "age": 0,
+                "genre": "",
+                "weight": 0,
+                "height": 0,
+                "hairColor": "",
+                "eyeColor": "",
+                "race": "",
+                "isRetired": false,
+                "nationality": "",
+                "oscarsNumber": 0,
+                "profession": ""
+            },
+            "writer": {
+                "name": "",
+                "age": 0,
+                "genre": "",
+                "weight": 0,
+                "height": 0,
+                "hairColor": "",
+                "eyeColor": "",
+                "race": "",
+                "isRetired": false,
+                "nationality": "",
+                "oscarsNumber": 0,
+                "profession": ""
+            },
+            "producer": "Amblin PArtners",
+            "distributor": "Dreamworks",
+            "isMCU": false,
+            "language": "English",
+            "mainCharacterName": "George McCay"
+        },
+        {
+            "title": "The arrival",
+            "releaseYear": 2016,
+            "nationality": "USA",
+            "genre": "sci-fi/drama",
+            "actors": [],
+            "director": {
+                "name": "",
+                "age": 0,
+                "genre": "",
+                "weight": 0,
+                "height": 0,
+                "hairColor": "",
+                "eyeColor": "",
+                "race": "",
+                "isRetired": false,
+                "nationality": "",
+                "oscarsNumber": 0,
+                "profession": ""
+            },
+            "writer": {
+                "name": "",
+                "age": 0,
+                "genre": "",
+                "weight": 0,
+                "height": 0,
+                "hairColor": "",
+                "eyeColor": "",
+                "race": "",
+                "isRetired": false,
+                "nationality": "",
+                "oscarsNumber": 0,
+                "profession": ""
+            },
+            "producer": "Lava Bear Films",
+            "distributor": "PAramount",
+            "isMCU": false,
+            "language": "English"
+        }
+    ]
+}

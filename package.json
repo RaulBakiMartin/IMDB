@@ -1,0 +1,25 @@
+{
+  "name": "imdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Imdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulBakiMartin/IMDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulBakiMartin/IMDB/issues"
+  },
+  "homepage": "https://github.com/RaulBakiMartin/IMDB#readme",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.9"
+  }
+}
