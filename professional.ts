@@ -36,12 +36,12 @@ class Professional{
             
         public printAll()
         {
-       console.log("Name "           + " - " +        this.name + '\n'+
-                   "Age "            + " - " +         this.age + '\n'+
-                   "Genre "          + " - " +       this.genre + '\n'+
-                   "Weight "         + " - " +      this.weight + '\n'+
-                   "Height "         + " - " +      this.height + '\n'+
-                   "Haircolor "      + " - " +   this.hairColor + '\n'+
+       console.log("Name "          + " - " +         this.name + '\n'+
+                   "Age "           + " - " +          this.age + '\n'+
+                   "Genre "         + " - " +        this.genre + '\n'+
+                   "Weight "        + " - " +       this.weight + '\n'+
+                   "Height "        + " - " +       this.height + '\n'+
+                   "Haircolor "     + " - " +    this.hairColor + '\n'+
                    "Eyecolor "      + " - " +    this.eyeColor  + '\n'+
                    "Race"           + " - " +        this.race  + '\n'+
                    "Is Retired "    + " - " +   this.isRetired  + '\n'+
