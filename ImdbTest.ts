@@ -62,3 +62,15 @@ let biblio  = new Imdb([movie1, movie3, movie4])
 
 fs.writeFileSync('ImdbBBDD.json', JSON.stringify(biblio));
 
+
+let x: Buffer = fs.readFileSync('ImdbBBDD.json');
+
+
+console.log(x.toString());
+
+
+console.log(JSON.parse(x.toString()));
+
+
+// console.log(JSON.parse(fs.readFileSync('ImbdBBDD.json')));
+

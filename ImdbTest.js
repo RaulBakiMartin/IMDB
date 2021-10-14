@@ -30,3 +30,6 @@ movie3.printMovie();
 var biblio = new Imdb_1.Imdb([movie1, movie3, movie4]);
 // console.log(JSON.stringify(biblio));
 fs.writeFileSync('ImdbBBDD.json', JSON.stringify(biblio));
+var x = fs.readFileSync('ImdbBBDD.json');
+console.log(x.toString());
+console.log(JSON.parse(x.toString()));
