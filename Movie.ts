@@ -1,13 +1,13 @@
-import {Professional} from "./professional";
+import { Professional } from "./professional";
 
 export class Movie
 {
     public title: string;
     public releaseYear: number;
-    public actors: Proffesional[];
+    public actors: Professional[];
     public nationality: string;
-    public director: Proffesional;
-    public writer: Proffesional;
+    public director: Professional;
+    public writer: Professional;
     public language: string;
     public plataform: string;
     public isMCU: boolean;
@@ -20,13 +20,14 @@ export class Movie
 
     constructor(title: string, releaseYear: number, nationality: string, genre: string)
     {
+        let noperson = new Professional("", 0, "", 0, 0, "", "", "", false, "", 0, "");
         this.title = title;
         this.releaseYear = releaseYear;
         this.nationality = nationality;
         this.genre = genre;
-        this.actors;
-        this.director;
-        this.writer;
+        this.actors = [];
+        this.director = noperson;
+        this.writer = noperson;
         this.language;
         this.isMCU;
         this.mainCharacterName;
@@ -43,6 +44,7 @@ export class Movie
         console.log("\n · Release Year: "+this.releaseYear);
         console.log("\n · Nationality: "+this.nationality);
         console.log("\n · Actors: ");
+
         for(let i: number = 0; i< this.actors.length; i++)
         {
             console.log("\n           - ");
