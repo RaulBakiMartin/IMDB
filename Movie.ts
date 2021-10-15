@@ -33,7 +33,7 @@ export class Movie
         this.mainCharacterName;
         this.producer;
         this.distributor;
-        this.genre;
+        
 
     }
 

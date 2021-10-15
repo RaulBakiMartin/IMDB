@@ -17,7 +17,6 @@ var Movie = /** @class */ (function () {
         this.mainCharacterName;
         this.producer;
         this.distributor;
-        this.genre;
     }
     Movie.prototype.printMovie = function () {
         console.log("\nFilm data shit");
